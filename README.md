@@ -1,2 +1,17 @@
 # Direct-ammo-sync-with-ox_inventory
-Direct ammo sync with (ox_inventory and qbx-core) “It helps players who close the game to be able to get back their bullets after they have fired.
+A simple script for FiveM (Qbox + ox_inventory) that synchronizes ammunition in real time.
+
+Every time a player fires a shot, the ammunition is instantly saved to the database.
+
+Prevents players from duping ammo by logging out and back in quickly.
+
+Works with both vanilla and addon weapons.
+
+Uses ox_inventory metadata to keep weapon ammo accurate.
+
+Features
+
+✅ Saves ammo instantly on each shot
+✅ Prevents ammo duping
+✅ Full support for custom/addon weapons
+✅ Minimal and resource-efficient
