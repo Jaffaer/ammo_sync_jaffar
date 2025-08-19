@@ -1,3 +1,11 @@
+CreateThread(function()
+    local resourceName = GetCurrentResourceName()
+    if resourceName ~= "ammo_sync_jaffar" then
+        print("^1[ammo-sync] Fel resursnamn! Byt tillbaka till 'ammo_sync_jaffar'^0")
+        StopResource(resourceName)
+    end
+end)
+
 RegisterNetEvent('ammoSync:updateAmmo', function(weapon, ammo)
     local src = source
     local player = exports.qbx_core:GetPlayer(src)
