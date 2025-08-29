@@ -1,4 +1,10 @@
 # Direct-ammo-sync-with-ox_inventory
+
+
+!!!  You cant change the name of the resource file !!!
+
+
+
 A simple script for FiveM (Qbox + ox_inventory) that synchronizes ammunition in real time.
 
 Every time a player fires a shot, the ammunition is instantly saved to the database.
