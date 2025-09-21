@@ -21,3 +21,10 @@ Features
 ✅ Prevents ammo duping
 ✅ Full support for custom/addon weapons
 ✅ Minimal and resource-efficient
+
+## Installistion ## 
+- Download Zip file
+
+- extract in to resources 
+
+- open server.cfg add ensure ammo_sync_jaffar
